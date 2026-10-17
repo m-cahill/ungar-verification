@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ungar-bridge"
+version = "0.1.0"
+description = "Bridge adapters for UNGAR core games"
+authors = [{ name = "Michael Cahill" }]
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+readme = "README.md"
+dependencies = [
+    "ungar",
+    "numpy>=1.26,<3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "mypy",
+    "pytest",
+    "pytest-cov",
+    "coverage",
+]
+rediai = [
+    "rediai>=2.1.0",
+]
+
+# Removed tool configurations to inherit from root pyproject.toml per M06 A3
+
+[tool.pytest.ini_options]
+addopts = "-q --maxfail=1 --disable-warnings"
+testpaths = ["tests"]

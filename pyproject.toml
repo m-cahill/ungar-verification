@@ -1,0 +1,82 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ungar"
+version = "0.1.0"
+description = "Universal Neural Grid for Analysis and Research (UNGAR)"
+authors = [{ name = "Michael Cahill" }]
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+readme = "README.md"
+dependencies = [
+    "numpy>=1.26,<2.0",
+    "torch>=2.0.0",
+]
+
+[project.scripts]
+ungar = "ungar.cli:main"
+
+[project.optional-dependencies]
+viz = [
+    "matplotlib>=3.7.0",
+    "pandas>=2.0.0",
+]
+dev = [
+    "ruff",
+    "mypy",
+    "pytest",
+    "pytest-cov",
+    "coverage",
+    "pydocstyle",
+    "hypothesis",
+    "bandit",
+    "pip-audit",
+    "cyclonedx-bom",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+fix = true
+
+[tool.ruff.lint]
+extend-select = ["I"]  # import sorting
+# keep defaults; we can refine ignores later
+
+[tool.mypy]
+python_version = "3.10"
+check_untyped_defs = true
+disallow_incomplete_defs = true
+disallow_untyped_defs = true
+warn_unused_ignores = true
+no_implicit_optional = true
+strict_equality = true
+# exclude = ["bridge/examples/"]  <-- Removed per M18-F
+
+[[tool.mypy.overrides]]
+module = ["pandas", "pandas.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "RediAI.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "ungar_bridge.*"
+ignore_missing_imports = true
+follow_imports = "skip"
+disable_error_code = ["import-untyped"]
+
+[[tool.mypy.overrides]]
+module = ["matplotlib", "matplotlib.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+addopts = "-q --maxfail=1 --disable-warnings"
+testpaths = ["tests", "bridge/tests"]
+markers = [
+    "smoke: fast, core tests (<2s)",
+    "full: slow, integration, or training tests",
+]

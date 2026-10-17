@@ -1,0 +1,53 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  public-verification:
+    name: Public verification
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+      - name: Credential scan (gitleaks, pinned)
+        shell: bash
+        env:
+          GITLEAKS_VERSION: "8.30.1"
+        run: |
+          set -euo pipefail
+          tarball="gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz"
+          curl -sSLf "https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/${tarball}" -o "${tarball}"
+          tar -xzf "${tarball}" gitleaks
+          chmod +x gitleaks
+          scan_root="$(mktemp -d)"
+          cleanup() { rm -rf "${scan_root}"; }
+          trap cleanup EXIT
+          git archive HEAD | tar -x -C "${scan_root}"
+          gitleaks_bin="$(pwd)/gitleaks"
+          (cd "${scan_root}" && "${gitleaks_bin}" dir . --redact --verbose)
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r ci-requirements.txt
+          python -m pip install -r requirements-dev.txt --no-deps
+          python -m pip install -e . --no-deps
+          python -m pip install -e bridge --no-deps
+      - name: Ruff lint (public tree)
+        run: |
+          ruff check .
+          ruff format --check .
+      - name: Dependency audit (pip-audit)
+        run: |
+          python -m pip install pip-audit
+          pip-audit -r requirements-dev.txt
+      - name: Bounded public verification
+        run: python scripts/run_public_verification.py

@@ -1,0 +1,9 @@
+ruff
+mypy
+pytest>=9.0.3
+pytest-cov
+pytest-asyncio>=0.25.0
+coverage
+pydocstyle
+hypothesis
+numpy<2.0

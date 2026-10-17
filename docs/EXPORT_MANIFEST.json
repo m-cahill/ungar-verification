@@ -1,0 +1,840 @@
+{
+  "m04_baseline": "b6c107dd4ff564ffec80aad0b824c46760d2ad99",
+  "m09_baseline_export_commit": "d83fb71b7d76693083320ea61afc3724af9e9fda",
+  "m18_baseline_export_commit": "1a59e1e16202a712b3c08e1161c71582ea3c0314",
+  "export_path": "C:\\coding\\acquisition\\export-candidates\\ungar-m19-final-candidate",
+  "file_count": 166,
+  "manifest_self_hash_rule": "docs/EXPORT_MANIFEST.json hash is computed over the file content that includes all other entries; verify non-manifest paths first.",
+  "files": [
+    {
+      "path": ".coveragerc",
+      "sha256": "c238a71de95b494b653650cd9ffe66a44f82cd103dbcda040fb62444febdf6c2",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": ".github/workflows/ci-research-legacy.yml",
+      "sha256": "d4b602576316cd8eeed680788f5fc3886fbc81d639944d0e162ab017715b6756",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "b4c179eda6645d694dda28af4a7253f25c5137dfc3311719cd142fab76474673",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": ".github/workflows/dependency-review.yml",
+      "sha256": "885d11fb40ac66dbccaaa95e759f364b5b2c932d1397537ad5ca69ca617217e7",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha256": "69af8a0e6720d7b460edf652c2271211dcd416337e06c1142c196f51d973f0d0",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "sha256": "e2e99be0c2fa7adc431ab4d351b19e2ecb991a933da40c39fd325e1f425e3817",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "5b887702634005d712a4d5517b7b83ef906fbe9516113d5fd1dd637348758190",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "sha256": "235437d485c17c2005da1872b5b14b9bde9a9f8dd8aba0b18205b9608d592fa8",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": ".pydocstyle",
+      "sha256": "5f23346e2f2420e88143b1c7e028da7bd2cdf82c7e0c22f98b71884f85b7263a",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "ad5f1eb5565c8805f04fb3bc2613dfc29c0ff92db91c585266eb3d83dfc58266",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "75ad3cf9f9191688b7a1e4672e154d354c3927a9fdf567bad5fd1f6a1841a928",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "M_13-UI_COMPLETE.md",
+      "sha256": "9b5b6c258cb527a3f16226f5c458a76f40683e297ff9cd206d6defe219d8f595",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "Makefile",
+      "sha256": "6b1c6b6da557b68ba690a9dd6b41cab3b3979fd7696ab98679d3cdcd1d8bec7b",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "93dbf637a81ac5fa4f1b550abf6b09d9eac2788eaed8782c7bdf6bdad113f68f",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "README.md",
+      "sha256": "c9b93104171aa2c38f01938d3ba6ef47d937992a5a12e5a981f0cec4badd4794",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "5548a56160e8fd57077bfdd4ac43732c509164aab175a930ca2c380de6720c84",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "VISION.md",
+      "sha256": "6d4152edf9435aea8e40d13210ecc3e53c027fdd65e53152781e462b67b2bf40",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/README.md",
+      "sha256": "1b2306c2e42141dc0f799afe4a12bb3eba75e96e155d393e559d0d0c4a89634a",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "bridge/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "bridge/benchmarks/benchmark_rediai_adapter.py",
+      "sha256": "60f0e6272f545a5367564781f0c011fcb938e544e198dee98364d8e10b3b9647",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "bridge/benchmarks/benchmark_rl_adapter_loop.py",
+      "sha256": "1c434a7f8c89229bbf49105fdb47929b16fcbc9916edebce7219edfcde0120a1",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "bridge/examples/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "bridge/examples/demo_rediai.py",
+      "sha256": "0bcb9dc206b3a040abe15c9d06afa1f6198057c45c5f6a8ee0f173a9ba6dd29e",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "bridge/examples/train_high_card_duel.py",
+      "sha256": "a6b3ceaedd42aaa691fc892a199ae171bdb198f0c8283e18c94e10720d7101fa",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "bridge/examples/train_high_card_rediai.py",
+      "sha256": "153fe017aee6594bbf2bbb8b6a7902fab4b9a0f270ae6edcef2a7af0e595864b",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "bridge/examples/workflows/ungar_demo.yaml",
+      "sha256": "72db315f233081dc251103936b8c62327d2206ccac1312ad547080851d77f9b6",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "bridge/pyproject.toml",
+      "sha256": "5d1b376c81f2d2e0a60b9170d5bcebceff4c0c88a658d7564e7d3851e08aee90",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "bridge/src/ungar_bridge/__init__.py",
+      "sha256": "646efb0dfb626e52dedca55936c7aec3b2c4ddf50b17d821bb495a51ab942c27",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/src/ungar_bridge/adapter_base.py",
+      "sha256": "91b769adbfcc018cc9e21bc80746e35c6c0e5b9763cb12f351d5878fc96faf6a",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/src/ungar_bridge/rediai_adapter.py",
+      "sha256": "a8f6aa85eadf739e0ce15a89670134cd15d69dd5b314f7d5f77448274a1ebd1c",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/src/ungar_bridge/rediai_gin.py",
+      "sha256": "54013387d64548b3f89eec0070bf2afb8531a88c96ce5f6c435b2b2113725391",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/src/ungar_bridge/rediai_rewardlab.py",
+      "sha256": "2a2280559290f6cac180baf722174e9167ac80b6cd335bfb0af089c58f74c108",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/src/ungar_bridge/rediai_spades.py",
+      "sha256": "f22bc0b6f456ee264750c4411060c5c90382cba6b4e77a6851342332703431d5",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/src/ungar_bridge/rediai_training.py",
+      "sha256": "2830d830606e43193dbd0737f98290b52d31fd4beb3d0b85ad9637341c84cc7b",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/src/ungar_bridge/rediai_xai.py",
+      "sha256": "8338cb7209b3417bbf3c161ee60e4e23b4ccf5666f5785062f7e9023c515150c",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/src/ungar_bridge/rl_adapter.py",
+      "sha256": "846d4a9ebf1f5b3a288ce657b2497e2ea706d8e807e2a9d3b6d4ab413d2a1983",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/src/ungar_bridge/run_workflow.py",
+      "sha256": "7847acad1ea7e33e0aa2deeeebbc24b92a7cb6a9d17412a6e75fede72943fec2",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/src/ungar_bridge/training.py",
+      "sha256": "011d6d9acef43dd2a1192179288ce2fa5d17f688a8eb8354ddf5d64438891924",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/src/ungar_bridge/types.py",
+      "sha256": "3e51310790f8cf45637db5fbdeff823ec96e4c4c314fe258bf90702e5a71595a",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/src/ungar_bridge/xai_overlays.py",
+      "sha256": "80ba4f85211594b0738ffb06dc2360a27d43c47fed4e0ebf13202781575725dd",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/tests/test_cross_game_pipeline.py",
+      "sha256": "be97a0d447aad38554654661bf73d84ed6cc45e78b895fe472f122fe11703908",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/tests/test_rediai_adapter.py",
+      "sha256": "7e5b8da5decfc580da5cc47ef706afa217ceb8fa8d13c2a01b8a642ac1af24d8",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/tests/test_rediai_rewardlab_bridge.py",
+      "sha256": "7b2f7294224bf220a22678d094b199ed9ec836ed719e565e7d3b810f2cae63b2",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/tests/test_rediai_smoke.py",
+      "sha256": "ce15ba765f417ddca84a36df9a15729f29cbe14ac0f48b87321556ad8bdfc3fd",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/tests/test_rediai_training.py",
+      "sha256": "dcaa1a3479f185532503a37f64d95c0fde77d35b0c070aaa9dc469bd3ceab66d",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/tests/test_rediai_training_e2e.py",
+      "sha256": "7a8826d7b95a9d0fe6de510e97b38f3d9a47844d95f89ee45e15148d805f3150",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/tests/test_rediai_xai_bridge.py",
+      "sha256": "770d55df8834ed3001eb382ef876f8377a233aa7bdb06ccda0c30494ec35e16d",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/tests/test_rl_adapter_multiagent.py",
+      "sha256": "c853d919c7e5bdf1a20ba732ce29a2b5fe1425d9dded04dd236a12d2fd3e388f",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/tests/test_training_high_card_duel.py",
+      "sha256": "0e0555b42db46f2b01bcb3ba7a5ecfb3896b07f18899b85e67bd2b7bd43f2b8d",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/tests/test_workflow_roundtrip.py",
+      "sha256": "d48a76e3ed0a6d7d1c4a7660ea38e81ebac8012a0fc82134315fade85019512e",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "bridge/tests/test_xai_overlays_high_card.py",
+      "sha256": "8fc6ec53b3cd3280509235d5b9dccb740881eb8ea264531d4a1c18f93f0c3e61",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "ci-requirements.txt",
+      "sha256": "738f0a1b3f76fada08ab63e12a52bd60b6118f3e0c50899563a16a049bfa23d2",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/EXPORT_MANIFEST.json",
+      "sha256": "ed3295889c31c70f4fe3d77bf1ec259fd6997083cac65b1ba0996f87b66fff41",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "docs/LIMITATIONS.md",
+      "sha256": "bd312b3238d8167d8482c1069324a5563a4cb7da12318e82dd12df884e53a00c",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "sha256": "e4e317db09296a7dc57694aceb7e196ac435fbc37faa3633a6a1e7fad26c3de7",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "docs/PUBLIC_INDEX.md",
+      "sha256": "04a6472ee53dceda59446752fbeb99f3820995ddf9a974dce15a4a8dfd7df2e3",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "docs/PUBLIC_STATUS.md",
+      "sha256": "8a3efe6628790865f6e1fefc8aee09fe9b73341c050f070061ac25ebc19c12e3",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "sha256": "572ce256aa0f634760987479e7e596e26dc4d40ae3b0e5b3c785aaf1380e1f6d",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "docs/adr/ADR-001-analytics_schema_v1_freeze.md",
+      "sha256": "b00a13c1d441b7b66dbca82dd30d6cffa36e60398a55b179435553e5f5e3051a",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/adr/ADR-002-xai_overlay_engine.md",
+      "sha256": "d14d6bc8826745ac5af3839ce59e51cb248603b31a8e8a7e9700bb59c6eb74a8",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/adr/ADR-003-opt_in_batch_processing.md",
+      "sha256": "35dc881fd9c88d7a7f7640749da529b2ae578c7ea899772e51d5f8f140acff48",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/adr/ADR-004-per_method_buffers.md",
+      "sha256": "0cbc9dfe128741ece52a6d3385b5c51a52a5ce71017f6ee4e9987c0575fa38a3",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/analytics_overview.md",
+      "sha256": "5e974ce51d7016b74e0dddccc25a0f923e87dc0c2f613412caa6081234675888",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/analytics_schema.md",
+      "sha256": "6248221c92493662fb3abba955bf98a6fb2b2399f6e6d65f029591eae125ad33",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/api_contracts_v1.md",
+      "sha256": "d802c121a86a351706d5a7babccc171422a420fa47437769a77ccc785534182f",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "docs/bridge.md",
+      "sha256": "a64157ed42ed15fe1afb7affeeb70514ba95c10d28c1a07780e3a44849888929",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/bridge_rediai.md",
+      "sha256": "06016a1245055a5342363b656675784578d0c0ab5246d56846432091fc4c978a",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/ci_strategy.md",
+      "sha256": "19bbccef2f1ce8f0d0498457290f9014168db2fbc630a8c4fabbd1b7deead66a",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/cli_reference.md",
+      "sha256": "8f1f9f3f35c16089a7d7c1d123fcff3d39633e4d8b9146d40d94ded73aa642c9",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "docs/core_tensor.md",
+      "sha256": "e44e4afe0c10b121f497d86f3c9cf1705f8219ccaa5699f5026437c58a1aa515",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "docs/demo_m22.md",
+      "sha256": "32dee6f5d5146e6b268590eafea625584921952a0b3489928e6cf3e21e8c11e5",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/frontend_status.md",
+      "sha256": "f082569a46b6549af6881a51919535be7ccc0457b933bd300697c84e0ba2fa7a",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/games_high_card_duel.md",
+      "sha256": "7a4e44118165b08b8cefa4df941cb062510e0316bd7e84dc996c348a294db6ac",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/index.md",
+      "sha256": "478ed62ec6923a7c914f7cbaa30200fecdaeefbcd3ede234a71a38483eed3f95",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/qa.md",
+      "sha256": "417d19e921f70e93006692bd6c0c5f8b2e25c52a7e686ee8b9f1f278d28f309d",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/quickstart_v1.md",
+      "sha256": "6439f345c90134995568373e50a5d34c2c8712b8c931fe6494569b69b9465fb1",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "docs/release_strategy.md",
+      "sha256": "5b06eee3e39f5cfe40725f436b674a7c23460aaa4e29098a6b7b09e13bfbcc0a",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/release_v1_checklist.md",
+      "sha256": "2219f63da3e5fd87a4c151de9414359a8561b9c24bf9c8fe71279c9149b9faac",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/training_dqn.md",
+      "sha256": "e1e2f2877f5b7ffd26e12300eba0940dc9094f8df31071dca0720b5fb0924351",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/training_gin.md",
+      "sha256": "321062eaaae265bc32b90e93b42b51d36e69d54a8d693f7701734a8ced751818",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/training_high_card.md",
+      "sha256": "3041807506a81c01b763312ebe5cf0cb99d105dca1ac1849093b917b6e2f981a",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/training_ppo.md",
+      "sha256": "23c70bada54dc83b9c775ed2f68610477aaa228ec58c5de69201abfd95c5e79b",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/ungar_agents.md",
+      "sha256": "ea310d0894da6f6f3f6aef1c9ba345ba79e3da7220437fd6d3ee8224d3850968",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "docs/xai_overlays.md",
+      "sha256": "d8122e8fe56cbc602c36227f0fea030c044e0cff273b37c530c72cd6d68e39e3",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "2a8ab7494140ab13d993776237b479e697a0ad536fd1416434f4f346d44c0d6c",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "requirements-dev.in",
+      "sha256": "5cb6c4c989e5faa464e289d16f1ba5abd5017134eee47548899902a4c5458263",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "sha256": "7f9893e24fc51245d88912b89cd8a50de9d836bfecc6e04b578f551894734323",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "reward_decomposition.json",
+      "sha256": "f6b53f490e82ed1dfbe82fc27a4a83f3419eae9d840cba61de04cb9d92b5a8f3",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "scripts/benchmark_tensor.py",
+      "sha256": "1f14f79e988384c459d42b170e5db64c4c4688bf54d234f4a71d472a03960ae1",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "scripts/demo_m22_full_cycle.py",
+      "sha256": "183347e06966544aac1db56a66a8dfb71d0fffcc4edca740fcd8bf9390f2d7c0",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "scripts/ensure_cpu_only.py",
+      "sha256": "ca96850a787cca7cb87d99ec5c2713ef8a4d348050c86fda7ac498b873a14be7",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "scripts/generate_ci_summary.py",
+      "sha256": "2d02a96b6e5e0ab189b57f5a8b6327a508c6964441669c0710a70057413e8d7e",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "scripts/profile_xai_batch.py",
+      "sha256": "0df92597de631ef2da2295693829b34c6a6bca7ab97b517dbf1de4640d65f677",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "scripts/run_all_checks.py",
+      "sha256": "921b117ebf9aa0e1c2e40c5b7df32122094d6703fd917f80dce952124fc2137e",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "scripts/run_public_verification.py",
+      "sha256": "e9a6f6aa7fdddf0f4a9b4645dcba5a6118f638fe0973f489b28b8ad0539d1d46",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/__init__.py",
+      "sha256": "53a4d1c2f40da578b8699e8f8ea5d651d4328414cfb0630ab69a2eaa42e18ad0",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/agents/adapters/gin_adapter.py",
+      "sha256": "3c9166e3f7addce0eddd06794c76f49dcae4dac4b9fa7dc537bc9308e016f9d9",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/agents/adapters/high_card_adapter.py",
+      "sha256": "c3b76661b20fd1d392783aff6a5cb45edaad64c725c5442e0b6eecf32e5e8a1f",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/agents/adapters/spades_adapter.py",
+      "sha256": "20782a36895e3acdfdcf55cb640af67bec84e1529756dcd3fb71112ecc9d8a4e",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/agents/dqn_lite.py",
+      "sha256": "869e8b9d874762253d76887f48912ce9d18e5833e1e13dfe5c7421d1bf54aad8",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/agents/ppo_lite.py",
+      "sha256": "138481b01f1c29a0063df247cf8d508876108f58d93a9d8961ed57cc883bfb73",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/agents/unified_agent.py",
+      "sha256": "2ef3a4adce7a0ffdb114d225ce69302ac75e77bd993c8a3af680493432c72206",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/analysis/metrics.py",
+      "sha256": "cd5a24f08c192ed4d123aa18f08a57abd125b06cd2d1b4c6221efd5edf4c984e",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/analysis/overlays.py",
+      "sha256": "f320a41c4901dfd9e17bd2bbf643ec597ac790c17c7364a89316bc1d61546f7a",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/analysis/plots.py",
+      "sha256": "bde3cfd94b830e4935b082c5812dd176fe7f905c425b18e88ee6622b41f9120b",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/analysis/schema.py",
+      "sha256": "ff76b99265fe05c60e305b7907452450f956e1c5a401054796db1b9cc655627f",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/cards.py",
+      "sha256": "b64c88aaf8f0ea55559abfcca666af0bb902d92ad388b9f44bc41381eaacbdf9",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/cli.py",
+      "sha256": "a17acdd8d40cf63d578485d186cd118fcf5fc5035b7b66f123d3b3e43517ddb8",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/enums.py",
+      "sha256": "50af3422a20402ffa45249b177bd476aaf9b0d09eaf66e2f9f0e684cd5c4a9d2",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/game.py",
+      "sha256": "14ade316352569df06f6cde885bc1b14e2efc4f63fe67eae6da6dd2f087b5ec2",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/games/__init__.py",
+      "sha256": "3333d8ecd24ffeecddd39a8926cd08743fe81f363f27a91f147f3d0b86d8a605",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/games/gin_rummy.py",
+      "sha256": "73fb6b2c5a6aba5d9c8c043a9b16537808b1da56226f24abdf7b29fc2ab8a8e4",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/games/high_card_duel.py",
+      "sha256": "47b42854e47f1204427af518e91d7dc2357a3eded9a7bd5d7e6c11251e30dd57",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/games/spades_mini.py",
+      "sha256": "78a48a439907ec39743451ecb2e3de5eff35bcbd98f0cec3995304c238810f87",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/py.typed",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/runner.py",
+      "sha256": "30308f42dab6d81376248c00d2e8791de30d62bc2a8f1521fff9695fca11e2f9",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/tensor.py",
+      "sha256": "80441482c85c17323538b4d5089981093071b1c340a6d0e05816b5a821214b91",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/training/config.py",
+      "sha256": "9217f0a1c45b7cb10abad07757207b3f91ace34fcdc2cc7bc39eadf3588f0e16",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/training/device.py",
+      "sha256": "d8def33424605e236a103dea5a5c8877b0c1566c26519419d4d19f5f0aef6d43",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/training/logger.py",
+      "sha256": "723a37b719eb56372855e43308543d3c7b1227405f14c902de0dc715556d7b1e",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/training/overlay_exporter.py",
+      "sha256": "31efdff00af1105ed0a89655719feaa32127f8993dc958d0e751ce0009f39d68",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/training/run_dir.py",
+      "sha256": "2a8a1404bf085d883b7ff827cf00ff581e74edf94fc27db88bee548e61537590",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/training/train_dqn.py",
+      "sha256": "efeb1b44c3c0969a38c2ace8fabb6b6266f3bd02d66a5e514d8dbc9617b0d2b6",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/training/train_ppo.py",
+      "sha256": "6a00a6a942d00aabed8d5da091529316d144deddab1046a3b4e31406b015374a",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/version.py",
+      "sha256": "cd3186c2eb2f50583e59dabccf16853e3c0acb8e0e2141bd667326ac01b97bfa",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/xai.py",
+      "sha256": "91ac4eaa87d577dabfeb2a0b9cd7cde101d3b6c9f9ecadc4faab051a29c4d870",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/xai_grad.py",
+      "sha256": "6ce3f7ce86a215a51654f2979ed94d4f13bc4cf57cf92d77b0f9da639282e0c6",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "src/ungar/xai_methods.py",
+      "sha256": "e935b63662c4a2cbdf4ce12cc67b75ea924b8de4394470f10371f4a05174ea53",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "test_overlays",
+      "sha256": "4def21da18e45de5128afa1cd69533f523019284bc127860d688d159b075a66c",
+      "classification": "PUBLIC_OPTIONAL"
+    },
+    {
+      "path": "tests/fixtures/sample_manifest_v1.json",
+      "sha256": "8e89d5dfd637f317b01e7a6791c3952433dfbc24d46976dfa869cd530ca1d2b6",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/fixtures/sample_overlay_v1.json",
+      "sha256": "9753000fa31718eb1aa6052290b158ea18520dc2b5c67966b7d01727fbc16177",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/games/test_gin_rummy.py",
+      "sha256": "152992994ad226cb67d020159046d30b23d18e587fb92fc56812e23b4a16b579",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_analysis.py",
+      "sha256": "28fc88d3dbce96a0082f0687bc91f88d33254cc9671fa636d66622ddd74b5066",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_analysis_comparison.py",
+      "sha256": "582a92f78a157bffd271b1a761567207d89dd9fbc17e4860cd74d15bcdd9a121",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_analysis_overlays.py",
+      "sha256": "4ad8b5739fb7070c5e6d2f19a56f94df393d17956d6c6d6b29fec25f60bffd21",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_analytics_integration.py",
+      "sha256": "f0154e55e6a54aca552c44ef1c93896445bfdce917532b7af139a98e57d6400e",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_analytics_schema.py",
+      "sha256": "db3de3aac63a83d11cfda8c424046f07a9d696181edf27dc5a696dc586f7578d",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_analytics_schema_contract.py",
+      "sha256": "a73dcb82be234518d55421ea29bc43adf9729cd676a71ce14b655633da2497b0",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_backend_logging.py",
+      "sha256": "280152396d1b4d5b0ee15bc52fa9a15ace4123614a03ce1c2f6b9a313b1da543",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_cards_properties.py",
+      "sha256": "f7126d363ff59c93e8081fe23ae92d3f07c097450cc73ffb11ab1f2ab943755f",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_cards_unit.py",
+      "sha256": "058d647362f4159cfe8d9aa3165daded75a46cb3bb6ddb7d64aa697ccdd188df",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_cli.py",
+      "sha256": "e84fc0c61efed0a03c9a4e2a072333a6fcce7d561c67c25aafcb94beeb4c24f2",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_cli_analytics.py",
+      "sha256": "d04e94650e581aea33da46ab7b006bea9c73448e1fe57f33617cce5ab0bf986a",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_cli_contracts.py",
+      "sha256": "769ec5cadf6d47d8536eb3e99f5266c3670a1080f09b70ed26b36a8f21cf15fe",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_cross_game_dqn.py",
+      "sha256": "2a1fa036e741800fb7a58350cb5f708ef5a272397491920cdf60411b9611c7a3",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_cross_game_ppo.py",
+      "sha256": "3e360de8b110acd6f707b43b8016bd633e61b49da82678e0cb18db5f544ff38e",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_game_protocols.py",
+      "sha256": "bf9a7f4929779de8c3f6fcde849aa99b6b77979d3de9d641058f5e60b77c7ff8",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_high_card_duel_tensor.py",
+      "sha256": "76a4d08d8d574a448c73676694ed87a87f7917e3d1f1243f68e6e9641e34479c",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_high_card_duel_unit.py",
+      "sha256": "63d889dd00838a1ca636511f1ce97fb6c19e663d5598f27cb02ce3b5ffe6e4e6",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_overlay_contract.py",
+      "sha256": "2b0efaae8d9dd064a203536d3303b86c2f917b774374709c25b05bdd0ea678f9",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_plots_optional.py",
+      "sha256": "50eef6e9d84c17b141e0fc5c78b714a3af1942c816f9c7229e6d77f67dca704b",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_run_manifest.py",
+      "sha256": "cba4cd475a4d0e004338ec9a682cacce86e62d97a3564aa41988ef5766de2aaa",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_runner_random_episode.py",
+      "sha256": "ba593d97a85d891122eb7db6ce3f728a5ab47e044bae437303b1567b612a9f76",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_sanity.py",
+      "sha256": "df1209864be7763d0d5933d8cb9aa277a22a67f60d584ed4c79ace7f4403f59d",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_tensor_invariants.py",
+      "sha256": "5b1fb5a426ed4c70221152e07d6f74b2df43124a77b652d5c2b6d2e2ff86d783",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_tensor_roundtrip.py",
+      "sha256": "8c9d7c5a59c9f7d367239a3be4fa297b66390c47a61f59cdb510697136d4f703",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_tensor_shape_and_types.py",
+      "sha256": "1b16bea74ff0dcf6ff37c59ca0e99030ffcc8199d07e3de284b08f0950fa393f",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_xai_batch.py",
+      "sha256": "2c3ad0148c2d9c13b16c8f54d1f2abfdffb4254d033dce8cbd9ee411dd91eb67",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_xai_batch_config.py",
+      "sha256": "2f642e34b0e477343561ca0ea24556a52be3c2c43b2e12fcc1a5b899ab08114d",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_xai_batch_grad.py",
+      "sha256": "00035557b84e1c98ccef2a7cab5243f0f1c0f801ea33f47d35c9469277f1fd22",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_xai_batch_protocol.py",
+      "sha256": "6adfdaec02f5829ec81c11e71f80508e948614364ea1057338d86d1871a9bf66",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_xai_card_overlay.py",
+      "sha256": "d94b541956737588ea3d67498c8fa93d8591e2f6c13b17ccd8223890544df0af",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_xai_grad.py",
+      "sha256": "accac9ff9eaba2a6ed92e04daaaa4f81a857032dd6a438be9db67ecd02eb9155",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_xai_grad_integration.py",
+      "sha256": "99c470876ce13599aba9747b4290bfc7b853eff3619a5e65284116377c439a43",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_xai_integration.py",
+      "sha256": "c2971e10ca294656d03d0d9346e60afb6a81f4374ff6b8f81eeeb3104d402a27",
+      "classification": "PUBLIC_REQUIRED"
+    },
+    {
+      "path": "tests/test_xai_methods.py",
+      "sha256": "d14e5407b92c83418a750f06f3cc4dab886851a0fe7842627521d2e02a9222e0",
+      "classification": "PUBLIC_REQUIRED"
+    }
+  ]
+}
